@@ -1,0 +1,9 @@
+{
+  "solution": {
+    "path": "VsTips.sln",
+    "projects": [
+      "TipsConsoleVB\\TipsConsoleVB.vbproj",
+      "TipsConsole\\TipsConsole.csproj"
+    ]
+  }
+}

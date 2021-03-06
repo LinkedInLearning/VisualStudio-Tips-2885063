@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "path": "VsTips.sln",
+    "projects": [
+      "BasicMvc\\BasicMvc.csproj",
+      "BasicRazorPages\\BasicRazorPages.csproj",
+      "BigStarCollectiblesWebApp\\BigStarCollectiblesWebApp.csproj"
+    ]
+  }
+}

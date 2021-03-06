@@ -9,6 +9,10 @@
     <Folder Include="VB Files\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TipsLib\TipsLib.csproj" />
+  </ItemGroup>
+
   <ProjectExtensions><VisualStudio><UserProperties json_4use-schema1_1json__JsonSchema="bsc-schema.json" json_4use-schema2_1json__JsonSchema="bsc-schema.json" json_4use-schema3_1json__JsonSchema="https://json.schemastore.org/docfx" /></VisualStudio></ProjectExtensions>
 
 </Project>
