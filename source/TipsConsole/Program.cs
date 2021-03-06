@@ -6,9 +6,13 @@ namespace TipsConsole
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
+			
 
-
+		}
+		static void AddKeyboardShortcut()
+		{
+			Console.WriteLine("Add a keyboard shortcut");
+			Console.WriteLine("to do a Git pull operation");
 		}
 	}
 }
