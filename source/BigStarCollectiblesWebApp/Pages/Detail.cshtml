@@ -1,0 +1,109 @@
+﻿@page "{id:int?}"
+@model BigStarCollectiblesWebApp.DetailModel
+@{
+	ViewData["Title"] = "Detail";
+}
+
+<h2>Buy this card</h2>
+
+We have this rare card in stock. Get yours today!
+
+<div class="card-group">
+	<div class="card  ">
+		<div class=" card-header">
+
+			<h4 class="card-title text-secondary">@Model.MonsterCard.Name</h4>
+		</div>
+		<img class="card-img-top" style="width:80%;object-fit:cover" src="@Url.Content("~/Images/" + Model.MonsterCard.ImageUri)" alt="Card image">
+
+		<div class="card-body">
+			<div class="card-text px-2 ">@Model.MonsterCard.Description</div>
+		</div>
+		<div class="card-footer">
+			<div>
+				<p>Slogan: @Model.MonsterCard.Slogan</p>
+			</div>
+		</div>
+	</div>
+	<div class="card ">
+		<div class="card-header">
+			<h4 class="card-title text-secondary">Characteristics</h4>
+		</div>
+
+		<div class="card-body">
+
+			<table class="table">
+				<tr>
+					<td>Eye Count: </td>
+					<td>@Model.MonsterCard.EyeCount</td>
+				</tr>
+				<tr>
+					<td>
+						Spikes:
+					</td>
+					<td>@(Model.MonsterCard.Spikes ? "yes" : "no")</td>
+				</tr>
+				<tr>
+					<td>
+						Antenna:
+					</td>
+					<td>@(Model.MonsterCard.Antenna ? "yes" : "no")</td>
+				</tr>
+
+				<tr>
+					<td>
+						Family:
+					</td>
+					<td>@Model.MonsterCard.Family</td>
+				</tr>
+			</table>
+
+
+		</div>
+		<div class="card-footer">
+			<p>Rank: @Model.MonsterCard.PopularityIndex </p>
+		</div>
+	</div>
+
+	<div class="card">
+		<div class="card-header">
+			<h4 class="card-title text-secondary">Pricing</h4>
+		</div>
+
+		<div class="card-body">
+			<table class="table">
+				<tr>
+					<td>List Price: </td>
+					<td>@Model.MonsterCard.ListPrice.ToString("C")</td>
+				</tr>
+				<tr>
+					<td>Asking Price: </td>
+
+					<td>
+						@Model.MonsterCard.AskingPrice.ToString("C")
+						@if (Model.MonsterCard.IsDiscounted)
+						{
+							<div class="badge badge-pill badge-success">Sale!</div>
+						}
+						<br />
+						-
+						@(Model.MonsterCard.Discount.ToString("C"))
+						
+					
+					</td>
+					<td>
+				</tr>
+				<tr>
+					<td>Sale Price: </td>
+
+					<td>	@(Model.MonsterCard.SalePrice.ToString("C"))</td>
+				</tr>
+			</table>
+
+
+		</div>
+		<div class="card-footer">
+			<p>Prices are updated hourly.</p>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,79 @@
+{
+	"Cards": [
+
+		{
+			"CardName": "Mingle",
+			"TeamName": "BlueShadows",
+			"Rarity": "Rare",
+			"Slogan": "Double Trouble",
+			"PublishedDate": "2007-04-07",
+			"ImageUri": "Monster-Mingle-card.png",
+			"Prices": {
+				"CatalogPrice": "5.99",
+				"BidPrice": "15.95"
+			},
+			"Monster": {
+				"Antenna": "false",
+				"Spikes": "false",
+				"EyeCount": "2"
+			}
+
+
+		},
+		{
+			"CardName": "Yodel",
+			"Rarity": "Uncommon",
+			"TeamName": "Spooktones",
+			"Slogan": "Yodelay Hee Hoo!",
+			"PublishedDate": "2018-05-05",
+			"ImageUri": "Monster-Mingle-card.png",
+			"Prices": {
+				"CatalogPrice": "5.99",
+				"BidPrice": "6.95"
+			},
+			"Monster": {
+				"Antenna": "false",
+				"Spikes": "true",
+				"EyeCount": "2"
+			}
+
+
+		},
+		{
+			"CardName": "Squido",
+			"Rarity": "Uncommon",
+			"TeamName": "Thunderheads",
+			"Slogan": "An Eye for Design",
+			"ImageUri": "Monster-Squido-card.png",
+			"Prices": {
+				"CatalogPrice": "2.99",
+				"BidPrice": "13.95"
+			},
+			"Monster": {
+				"Antenna": "false",
+				"Spikes": "true",
+				"EyeCount": "2"
+			},
+
+
+		},
+		{
+			"CardName": "Skedaddle",
+			"Rarity": "Rare",
+			"TeamName": "Spooktones",
+			"Slogan": "Game of Life",
+			"ImageUri": "Monster-Skedaddle-card.png",
+			"Prices": {
+				"CatalogPrice": "7.99",
+				"BidPrice": "26.95"
+			},
+			"Monster": {
+				"Antenna": "false",
+				"Spikes": "false",
+				"EyeCount": "1"
+			}
+
+
+		}
+	]
+}

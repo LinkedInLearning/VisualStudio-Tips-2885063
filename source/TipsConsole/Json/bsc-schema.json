@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "title": "JSON Schema for my JSON file format",
+
+  "type": "object",
+
+  "properties": {
+    "Slogan": {
+      "type": "string",
+      "description": "Catchy phrase for the card."
+    },
+    "ImageUri": {
+      "type": "string",
+      "format": "uri"
+    },
+    "CardName": {
+      "type": "string"
+
+    },
+    "Rarity": {
+      "enum": [ "Rare", "Common", "Uncommon" ]
+    },
+    "TeamName": {
+      "enum": [ "SpookTones", "Thunderheads", "BlueShadows" ]
+    },
+    "Prices": {
+      "type": "object",
+      "properties": {
+        "CatalogPrice": {
+          "type": "number"
+
+        },
+        "BidPrice": {
+          "type": "number"
+        }
+      }
+    },
+    "Monster": {
+      "type": "object",
+      "properties": {
+        "EyeCount": {
+          "type": "number"
+
+        },
+        "HasAntenna": {
+          "type": "boolean"
+        },
+        "HasSpikes": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}
