@@ -3,7 +3,8 @@
     "path": "VsTips.sln",
     "projects": [
       "TipsConsoleVB\\TipsConsoleVB.vbproj",
-      "TipsConsole\\TipsConsole.csproj"
+      "TipsConsole\\TipsConsole.csproj",
+      "TipsLib\\TipsLib.csproj"
     ]
   }
 }
