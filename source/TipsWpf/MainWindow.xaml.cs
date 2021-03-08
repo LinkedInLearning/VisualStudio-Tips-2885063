@@ -23,6 +23,7 @@ namespace TipsWpf
 		public MainWindow()
 		{
 			InitializeComponent();
+			string sample = "";
 		}
 	}
 }
