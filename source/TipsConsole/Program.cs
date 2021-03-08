@@ -21,6 +21,7 @@ namespace TipsConsole
 		{
 			Console.WriteLine("One");
 			Console.WriteLine("Two");
+
 			Console.WriteLine("Three");
 			Console.WriteLine("Four");
 		}
