@@ -3,7 +3,7 @@ Imports System
 Module Program
 	Sub Main(args As String())
 		Dim counter = 2
-		Dim outputString
+		Dim outputString = ""
 		Dim currentChar = "-"c
 		Do
 			counter = counter + 1
